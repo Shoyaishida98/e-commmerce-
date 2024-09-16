@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 0em;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    height: 300px; 
+    position: relative;
+}
+
+.slide {
+    min-width: 100%;
+    height: 100%;
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    transition: all 0.5s ease-in-out;
+}
+
+.slides img {
+    width: 100%; /* Each image takes up 100% of the container */
+    display: block;
+}
+
+
+.product-grid {
+    display: flex;              /* Flexbox layout to make products side by side */
+    justify-content: center;     /* Centers the product grid horizontally */
+    gap: 20px;                  /* Space between products */
+    flex-wrap: wrap;            /* Ensures products wrap to a new line if the screen is too narrow */
+    text-align: center;
+    width: 300px;
+    height: 300px;
+
+}
+
+.product {
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    
+}
+
+.product-details img {
+    display: flex;
+    max-width: 10%; 
+    height: auto;    
+    border: 1px solid #ccc; 
+    padding: 10px;   
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: -1;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+}
